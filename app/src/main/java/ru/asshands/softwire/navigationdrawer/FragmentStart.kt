@@ -15,7 +15,7 @@ class FragmentStart  : Fragment(R.layout.fragment_start){
         super.onViewCreated(view, savedInstanceState)
         _bind =  FragmentStartBinding.bind(view)
 
-        bind.fragmentStartText.setOnClickListener {
+        bind.fragmentText.setOnClickListener {
             findNavController().navigate(R.id.action_fragment_start_to_fragment_one)
         }
     }

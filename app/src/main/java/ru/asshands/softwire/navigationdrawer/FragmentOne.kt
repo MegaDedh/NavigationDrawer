@@ -15,7 +15,7 @@ class FragmentOne : Fragment(R.layout.fragment_one){
         super.onViewCreated(view, savedInstanceState)
         _bind =  FragmentOneBinding.bind(view)
 
-        bind.fragmentOneText.setOnClickListener {
+        bind.fragmentText.setOnClickListener {
             findNavController().navigate(R.id.action_fragment_one_to_fragment_two)
         }
     }

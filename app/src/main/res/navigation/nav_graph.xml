@@ -55,7 +55,7 @@
     <fragment
         android:id="@+id/fragment_three"
         android:name="ru.asshands.softwire.navigationdrawer.FragmentThree"
-        android:label="fragment_two"
+        android:label="fragment_three"
         tools:layout="@layout/fragment_three">
 
     </fragment>
