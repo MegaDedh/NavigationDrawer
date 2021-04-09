@@ -1,4 +1,7 @@
-﻿﻿# Пример NavigationDrawer и Navigation
+# Пример NavigationDrawer и Navigation
+
+##Update UI components with NavigationUI  
+https://developer.android.com/guide/navigation/navigation-ui
 
 ## Navigation Drawer with Navigation Component - Android Studio Tutorial
 https://www.youtube.com/watch?v=pucQs0TUe0I
@@ -41,6 +44,10 @@ https://www.youtube.com/watch?v=pucQs0TUe0I
 </details>
  
 Настраиваем MainActivity:
+
+Альтернативный конструктор для указания "topLevelDestinationIds"
+
+appBarConfiguration = AppBarConfiguration(setOf(R.id.mainFragment),drawerLayout)
 <details>
   <summary>MainActivity</summary> 
  
