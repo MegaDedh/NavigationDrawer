@@ -1,6 +1,6 @@
 # Пример NavigationDrawer и Navigation
 
-##Update UI components with NavigationUI  
+## Update UI components with NavigationUI  
 https://developer.android.com/guide/navigation/navigation-ui
 
 ## Navigation Drawer with Navigation Component - Android Studio Tutorial
